@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Taiwan Uric Acid & Gout Database Schema",
+  "definitions": {
+    "PurineFood": {
+      "type": "object",
+      "required": ["id", "name_zh", "purine_mg_per_100g", "purine_level", "source"],
+      "properties": {
+        "id": { "type": "string" },
+        "name_zh": { "type": "string" },
+        "name_en": { "type": "string" },
+        "category": { "type": "string" },
+        "purine_mg_per_100g": { "type": "number" },
+        "purine_level": { "type": "string", "enum": ["very_high", "high", "medium", "low"] },
+        "serving_size_g": { "type": "number" },
+        "purine_per_serving_mg": { "type": "number" },
+        "taiwan_note_zh": { "type": "string" },
+        "source": { "type": "string" }
+      }
+    }
+  }
+}

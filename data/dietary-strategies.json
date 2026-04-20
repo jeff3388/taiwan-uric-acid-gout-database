@@ -1,0 +1,90 @@
+[
+  {
+    "id": "hydration",
+    "strategy_zh": "充足水化（最重要、最有效的單一策略）",
+    "evidence_grade": "A",
+    "recommendation_zh": "每日飲水量 2000–3000ml，目標尿液顏色淡黃色。急性發作期提升至 3000ml 以上",
+    "mechanism_zh": "尿酸主要透過腎臟排泄。充足水分增加尿液量，稀釋尿酸濃度，降低尿路結石（尿酸結石）風險，並促進尿酸從腎臟排出",
+    "taiwan_practical_zh": [
+      "台灣夏季高溫（7–9 月）流汗量大，需額外補充",
+      "超商礦泉水、無糖茶（綠茶、烏龍茶）、白開水均可",
+      "避免以含糖飲料補充水分（果糖升高尿酸，適得其反）",
+      "咖啡（適量，每日 1–2 杯）研究顯示可降低痛風風險，可計入水分"
+    ],
+    "source": "Toprover M & Pillinger MH (2018) Curr Rheumatol Rep. PMID: 30039386",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "alcohol-restriction",
+    "strategy_zh": "限制（最好完全避免）酒精",
+    "evidence_grade": "A",
+    "recommendation_zh": "急性發作期完全禁酒。緩解期：啤酒完全避免；烈酒（高粱、威士忌）限制；紅酒影響較小但仍不建議",
+    "mechanism_zh": "酒精（乙醇）代謝產生乳酸，競爭性抑制腎臟尿酸排泄。啤酒額外含鳥嘌呤（guanosine），雙重升高尿酸。飲酒使痛風急性發作風險升高 1.5–2.5 倍",
+    "alcohol_risk_ranking_zh": {
+      "highest": "啤酒（含嘌呤 + 酒精雙重效應）",
+      "high": "烈酒（台灣高粱、米酒）",
+      "lower": "紅酒（但仍有酒精影響，不建議飲用）"
+    },
+    "taiwan_context_zh": "台灣男性痛風患者中，飲酒是最常見的誘發因素。台灣文化中應酬、喝酒文化盛行，需特別注意",
+    "source": "Choi HK et al. (2004) Lancet. PMID: 14987884；Zhang Y et al. (2006) PMID: 16837714",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "fructose-restriction",
+    "strategy_zh": "限制果糖攝取（含糖飲料、果汁）",
+    "evidence_grade": "A",
+    "recommendation_zh": "避免含糖飲料（手搖飲、果汁、汽水）；天然水果每日 ≤ 2 份（選低果糖水果）",
+    "mechanism_zh": "果糖在肝臟代謝過程加速 ATP 分解為 AMP，AMP 進一步降解為尿酸。果糖升高尿酸的速度快且效果顯著，研究顯示每日喝 2 罐以上含糖飲料者痛風風險增加 85%",
+    "high_fructose_fruits_zh": {
+      "avoid_or_limit": ["芒果（果糖 8.1g/100g）", "荔枝（果糖 5.5g/100g）", "西瓜（份量大，果糖總量高）", "葡萄（果糖 8.2g/100g）"],
+      "lower_fructose": ["奇異果（3.1g/100g）", "草莓（2.5g/100g）", "芭樂（4.9g/100g）", "柳橙（2.5g/100g）"]
+    },
+    "taiwan_beverages_zh": "台灣手搖飲全糖（700ml）含糖約 70–100g，其中果糖 35–50g。即使一杯手搖飲的果糖量已接近或超過建議限量，痛風患者應選擇無糖茶飲",
+    "source": "Choi HK & Curhan G (2008) BMJ. PMID: 18244959；Choi JWJ et al. (2010) PMID: 20229993",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "animal-purine-reduction",
+    "strategy_zh": "限制高嘌呤動物性食物",
+    "evidence_grade": "A",
+    "recommendation_zh": "每日肉類、海鮮攝取 ≤ 100–150g（以動物性蛋白計）；急性發作期 ≤ 50g 或暫時避免",
+    "priority_avoid_zh": [
+      "內臟類：豬肝、豬腰、雞心、腦（嘌呤最高）",
+      "濃縮海鮮：小魚乾、蝦米、鮑魚乾",
+      "濃縮肉湯：大骨湯、雞精、火鍋高湯（嘌呤大量溶入湯中）"
+    ],
+    "moderate_ok_in_remission_zh": [
+      "瘦肉（豬里肌、牛後腿）：每份 ≤ 80–100g，緩解期每週 4–5 次",
+      "雞胸肉：嘌呤比豬肉高，每份 ≤ 80g",
+      "低嘌呤海鮮選擇：吳郭魚（62mg）、鱸魚（70mg）優於鯖魚（194mg）"
+    ],
+    "soup_warning_zh": "台灣火鍋湯底（豬骨、雞骨長時間熬煮）嘌呤濃度極高，比固體食物更危險。台灣健康飲食建議：食火鍋選清湯底，少喝湯",
+    "source": "Choi HK et al. (2004) PMID: 15014185；Neogi T et al. (2014) ACR 痛風指引",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "dairy-encouragement",
+    "strategy_zh": "鼓勵攝取低脂乳製品（降尿酸效果明確）",
+    "evidence_grade": "A",
+    "recommendation_zh": "每日 1–2 份低脂乳製品（低脂牛奶 240ml 或無糖優格 200g）",
+    "mechanism_zh": "乳製品中的 lactalbumin 和 casein 促進腎臟排泄尿酸；乳清蛋白（whey）抑制尿酸再吸收。研究顯示每日攝取乳製品最多者比最少者痛風風險降低 44%",
+    "taiwan_practical_zh": [
+      "超商低脂牛奶（全家、7-11）：每日 1 盒（240ml）",
+      "無糖希臘優格：蛋白質高、嘌呤低，是理想的痛風患者蛋白質來源",
+      "選低脂版本：全脂乳製品熱量較高，對體重管理有影響"
+    ],
+    "source": "Choi HK et al. (2004) N Engl J Med. PMID: 15014185；Dalbeth N et al. (2010) PMID: 20201106",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "coffee-vitamin-c",
+    "strategy_zh": "咖啡和維生素 C 的保護效果",
+    "evidence_grade": "B",
+    "recommendation_zh": "適量咖啡（每日 1–4 杯黑咖啡）有助降低痛風風險；維生素 C 500–1000mg/天可輕微降低尿酸",
+    "coffee_mechanism_zh": "咖啡（尤其咖啡因）可能通過抑制黃嘌呤氧化酶（xanthine oxidase，尿酸合成的關鍵酶）降低尿酸。流行病學研究顯示每日喝 4–5 杯咖啡者，男性痛風風險降低 40%",
+    "vitamin_c_note_zh": "維生素 C 可輕微促進尿酸排泄（平均降低 0.5 mg/dL）。效果遠低於藥物，但作為輔助策略是安全的。台灣芭樂（228mg/100g）是最佳天然 VC 來源",
+    "taiwan_practical_zh": "台灣手搖飲改黑咖啡（無糖）是對痛風患者同時有益的替換。美式咖啡、台灣本土咖啡連鎖（路易莎、cama）均可",
+    "source": "Choi HK et al. (2007) Arthritis Rheum. PMID: 17530645（咖啡）；Gao X et al. (2008) PMID: 18320600（維生素C）",
+    "_meta": { "last_updated": "2026-04-16" }
+  }
+]

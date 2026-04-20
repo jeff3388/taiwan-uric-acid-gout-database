@@ -1,0 +1,70 @@
+[
+  {
+    "id": "normal-range",
+    "category": "normal_value",
+    "category_zh": "正常血尿酸值",
+    "values": {
+      "male_mg_dl": "< 7.0",
+      "female_mg_dl": "< 6.0",
+      "male_umol_l": "< 416",
+      "female_umol_l": "< 357"
+    },
+    "note_zh": "女性尿酸正常值較低，因雌激素促進腎臟排泄尿酸。停經後女性尿酸值上升，痛風風險接近男性",
+    "source": "台灣風濕病醫學會痛風診治指引（2022）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "hyperuricemia",
+    "category": "diagnosis",
+    "category_zh": "高尿酸症診斷切點",
+    "values": {
+      "male_mg_dl": "≥ 7.0",
+      "female_mg_dl": "≥ 6.0",
+      "both_umol_l": "≥ 420（部分指引採用）"
+    },
+    "prevalence_taiwan_zh": "台灣高尿酸症盛行率約 25–26%（男性約 30–35%，女性約 13–18%）",
+    "risk_stratification_zh": {
+      "mild": "7.0–8.0 mg/dL（男）/ 6.0–7.0（女）：飲食調整，定期追蹤",
+      "moderate": "8.0–9.0 mg/dL：強力建議飲食介入，考慮藥物",
+      "severe": "≥ 9.0 mg/dL：通常需要藥物治療（Allopurinol / Febuxostat）"
+    },
+    "source": "台灣風濕病醫學會痛風診治指引（2022）；Kuo CF et al. (2015) PMID: 25580703",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "gout-diagnosis",
+    "category": "gout_criteria",
+    "category_zh": "痛風診斷標準",
+    "criteria_zh": "血尿酸 ≥ 7 mg/dL + 急性關節炎症狀（最常見第一腳趾蹠趾關節），或關節液發現尿酸結晶",
+    "typical_presentation_zh": "急性發作：單一關節突然劇烈疼痛、紅腫熱痛（常見大腳趾根部），常於夜間或清晨發作，可能由飲酒、大量攝取高嘌呤食物或脫水誘發",
+    "taiwan_gout_prevalence_zh": "台灣痛風盛行率：男性 6.24%、女性 2.15%（Kuo CF et al. 2015）。男性發病高峰 30–60 歲，女性多在停經後",
+    "source": "ACR 2012 痛風分類標準；台灣風濕病醫學會指引（2022）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "treatment-targets",
+    "category": "treatment_target",
+    "category_zh": "藥物治療尿酸目標值",
+    "targets": {
+      "standard": "< 6.0 mg/dL（無痛風石患者）",
+      "tophi": "< 5.0 mg/dL（有痛風石患者，加速結晶溶解）"
+    },
+    "common_medications_taiwan_zh": [
+      "Allopurinol（安樂普諾錠）：台灣第一線降尿酸藥物，每日 100–300mg，需注意 HLA-B*5801 基因型（台灣漢人約 6–8% 攜帶，過敏反應風險高）",
+      "Febuxostat（優適敏錠）：HLA-B*5801 陽性患者的替代選項，台灣健保有條件給付",
+      "Benzbromarone（苯溴馬隆）：促進腎臟排泄，適合腎功能正常者"
+    ],
+    "diet_vs_medication_zh": "飲食調整通常最多降低尿酸 1–2 mg/dL。若尿酸 > 8 mg/dL 或反覆發作，飲食調整不足以達到治療目標，需配合藥物",
+    "source": "台灣風濕病醫學會痛風診治指引（2022）；Khanna D et al. (2012) ACR 痛風指引 PMID: 22951899",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "hla-b5801-warning",
+    "category": "genetic_warning",
+    "category_zh": "HLA-B*5801 基因型警示（台灣特有）",
+    "description_zh": "台灣漢人族群 HLA-B*5801 基因型攜帶率約 6–8%（遠高於歐美白人 < 1%）。攜帶此基因型服用 Allopurinol 後發生嚴重藥物過敏（Stevens-Johnson Syndrome）的風險極高",
+    "recommendation_zh": "台灣衛福部食藥署建議：開立 Allopurinol 前先進行 HLA-B*5801 基因型篩檢（健保有給付）",
+    "source": "衛福部食藥署安全警示（2010）；Hung SI et al. (2005) PMID: 15953892",
+    "_meta": { "last_updated": "2026-04-16" }
+  }
+]
